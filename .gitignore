@@ -1,0 +1,24 @@
+# KiCad backup and cache files
+*.bak
+*.bck
+*-bak
+*-cache.lib
+*-rescue.lib
+fp-info-cache
+_autosave-*
+
+# KiCad temporary files
+~*.kicad_pcb
+~*.kicad_sch
+*.kicad_pcb-bak
+*.kicad_sch-bak
+
+# Gerber outputs (optional - some commit these)
+gerbers/
+gerber/
+fabrication/
+
+# General
+.DS_Store
+*~
+
